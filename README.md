@@ -1,50 +1,78 @@
-# Welcome to your Expo app 👋
+## 🚨 Tutorial Project
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+This is a React-Native learning/portfolio project made by following step-by-step tutorial provided by <a href="https://www.youtube.com/@javascriptmastery/videos" target="_blank"><b>JavaScript Mastery</b></a>. 
 
-## Get started
+<a href="https://www.youtube.com/watch?v=kmy_YNhl0mw" target="_blank"><img src="https://github.com/sujatagunale/EasyRead/assets/151519281/1736fca5-a031-4854-8c09-bc110e3bc16d" /></a>
 
-1. Install dependencies
+## <a name="tech-stack">⚙️ Tech Stack</a>
 
-   ```bash
-   npm install
-   ```
+- React Native
+- Expo
+- Stripe
+- PostgreSQL
+- Google Maps
+- Zustand
+- Clerk
+- Tailwind CSS
 
-2. Start the app
+## <a name="features">🔋 Features</a>
 
-   ```bash
-    npx expo start
-   ```
+🤩 **Onboarding Flow**: Seamless user registration and setup process.
 
-In the output, you'll find options to open the app in a
+🤩 **Email Password Authentication with Verification**: Secure login with email verification.
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+🤩 **oAuth Using Google**: Easy login using Google credentials.
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+🤩 **Authorization**: Secure access control for different user roles.
 
-## Get a fresh project
+🤩 **Home Screen with Live Location & Google Map**: Real-time location tracking with markers on a map.
 
-When you're ready, run:
+🤩 **Recent Rides**: View a list of recent rides at a glance.
+
+🤩 **Google Places Autocomplete**: Search any place on Earth with autocomplete suggestions.
+
+🤩 **Find Rides**: Search for rides by entering 'From' and 'To' locations.
+
+🤩 **Select Rides from Map**: Choose available cars near your location from the map.
+
+🤩 **Confirm Ride with Detailed Information**: View complete ride details, including time and fare price.
+
+🤩 **Pay for Ride Using Stripe**: Make payments using multiple methods like cards and others.
+
+🤩 **Create Rides After Successful Payment**: Book a ride after confirming payment.
+
+🤩 **Profile**: Manage account details in the profile screen.
+
+🤩 **History**: Review all rides booked so far.
+
+and many more, including code architecture and reusability 
+
+## <a name="quick-start">🤸 Quick Start</a>
+
+Follow these steps to set up the project locally on your machine.
+
+**Prerequisites**
+
+Make sure you have the following installed on your machine:
+
+- [Git](https://git-scm.com/)
+- [Node.js](https://nodejs.org/en)
+- [npm](https://www.npmjs.com/) (Node Package Manager)
+
+**Installation**
+
+Install the project dependencies using npm:
 
 ```bash
-npm run reset-project
+npm install
 ```
 
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
+**Running the Project**
 
-## Learn more
+```bash
+npm start
+```
 
-To learn more about developing your project with Expo, look at the following resources:
+**Expo Go**
 
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Join the community
-
-Join our community of developers creating universal apps.
-
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+Download the [Expo Go](https://expo.dev/go) app onto your device, then use it to scan the QR code from Terminal and run.
